@@ -1,10 +1,10 @@
+import datetime
+import time
+
 import pytest
 from _pytest.main import Session
 from _pytest.nodes import Item
 from pluggy import Result
-import datetime
-import time
-
 
 start_timestr = None
 end_timestr = None
@@ -24,9 +24,11 @@ durning = None
 #     print(f"{item.name}案例执行耗时{(end_timestr-start_timestr)}>=<")
 #     outcome.force_result(0)
 
+
 def pytest_configure():
 
     print("测试案例开始执行了")
+
 
 def pytst_unconfigure():
 

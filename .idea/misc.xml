@@ -11,5 +11,5 @@
     <annotation-enable>false</annotation-enable>
     <other-services-enabled>false</other-services-enabled>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11.8 (C:\Program Files (x86)\Python311-32\python.exe)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11.8 (C:\python311\python.exe)" project-jdk-type="Python SDK" />
 </project>
