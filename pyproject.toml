@@ -29,9 +29,32 @@ distribution = true
 dev = [
     "tox-pdm>=0.7.2",
 ]
+
+[tool.pdm.build]
+package-dir = "src"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+skip = [".venv"]
+
+
+[tool.black]
+exclude = '''
+/(
+    \ .git
+    | \.hg
+    | \.tox
+    | \.venv
+    | buck-out
+    | build
+    | dist
+)/
+'''
 [tool.pdm.scripts]
-lint = "flake8"
+check = {composite = [
+    "isort .",
+    "black .",
+    "flake8 .",
+]}
 test = "pytest"
-sort = "isort"
-black = "black"
-all = {composite = ["lint tests/","test -v tests/","sort tests/","black tests/"]}
