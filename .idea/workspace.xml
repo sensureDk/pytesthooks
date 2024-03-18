@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf8922b5-9920-4075-b01a-2820aac30db4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/hook-study-one.iml" afterPath="$PROJECT_DIR$/.idea/hook-study-one.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conftest.py" afterPath="$PROJECT_DIR$/conftest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conftestOrg.py" afterPath="$PROJECT_DIR$/conftestOrg.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdm.lock" afterPath="$PROJECT_DIR$/pdm.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyproject.toml" afterPath="$PROJECT_DIR$/pyproject.toml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Test_hooks.py" afterPath="$PROJECT_DIR$/tests/Test_hooks.py" />
-    </list>
+    <list default="true" id="cf8922b5-9920-4075-b01a-2820aac30db4" name="Default" comment="" />
     <ignored path=".pytest_cache/" />
     <ignored path=".idea/" />
     <ignored path=".venv/" />
