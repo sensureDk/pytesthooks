@@ -51,10 +51,18 @@ exclude = '''
     | dist
 )/
 '''
+
+
 [tool.pdm.scripts]
-check = {composite = [
+check = {composite=[
     "isort .",
     "black .",
     "flake8 .",
 ]}
 test = "pytest"
+
+#lint = "flake8"
+#test = "pytest"
+#sort = "isort"
+#black = "black"
+#all = {composite = ["black ./src","sort","lint","test"]}
